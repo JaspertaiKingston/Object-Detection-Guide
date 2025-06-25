@@ -35,8 +35,8 @@ pip install -r requirements.txt
 names:
 - dog #類別名稱
 
-train: D:\Jasper\yolo_guide\data\yolo_data\images # label-studio下載的訓練用圖片路徑
-val: D:\Jasper\yolo_guide\data\yolo_data\images # 驗證用圖片路徑 (此為範例，實際不建議使用和train相同資料集)
+train: {path}\data\yolo_data\images # label-studio下載的訓練用圖片路徑
+val: {path}\data\yolo_data\images # 驗證用圖片路徑 (此為範例，實際不建議使用和train相同資料集)
 ```
 
 5. 訓練模型
